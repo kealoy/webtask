@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>lab_1</title>
+  </head>
+  <body>
+    <h1>Лабораторна робота 1</h1>
+
+    <h2>Регистрация</h2>
+
+    <a href="ссылка_на_страницу_со_списком_лабораторных">Список лабораторных</a>
+
+    <form
+      action="https://webhook.site/a5da5501-427c-4f03-9c7f-6b304d68546f"
+      method="POST"
+    >
+      <label for="имя">Имя:</label>
+      <input type="text" name="имя" id="имя" required /><br />
+
+      <label for="прізвище">Прізвище:</label>
+      <input type="text" name="прізвище" id="прізвище" required /><br />
+
+      <label for="електронна_пошта">Електронна пошта:</label>
+      <input
+        type="email"
+        name="електронна_пошта"
+        id="електронна_пошта"
+        required
+      /><br />
+
+      <label for="пароль">Пароль:</label>
+      <input type="password" name="пароль" id="пароль" required /><br />
+
+      <label for="підтвердження_паролю">Підтвердження паролю:</label>
+      <input
+        type="password"
+        name="підтвердження_паролю"
+        id="підтвердження_паролю"
+        required
+      /><br />
+
+      <input type="submit" value="Відправити" /><br />
+
+      <label for="дата_народження">Дата народження:</label>
+      <input type="date" name="дата_народження" id="дата_народження" /><br />
+
+      <label for="стать">Стать:</label>
+      <select name="стать" id="стать">
+        <option value="чоловік">Чоловік</option>
+        <option value="жінка">Жінка</option>
+      </select>
+    </form>
+  </body>
+</html>
